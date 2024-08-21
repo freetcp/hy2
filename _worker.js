@@ -48,28 +48,33 @@ export default {
 		}
 
 		let siteshy2 = [
-			{ url: 'https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria2/config.json', type: "hysteria2" },
-			{ url: 'https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria2/1/config.json',type: "hysteria2" },
-			{ url: 'https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria2/2/config.json',type: "hysteria2"},
-			{ url: 'https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria2/13/config.json',type: "hysteria2"},
-			{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/config.json',type: "hysteria2"},
-			{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/2/config.json',type: "hysteria2"},
-		];
+	        	{ url: 'https://www.gitlabip.xyz/Alvin9999/pac2/master/hysteria2/1/config.json', type: "hysteria2" },
+	        	{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/config.json', type: "hysteria2" },
+	        	{ url: 'https://www.githubip.xyz/Alvin9999/pac2/master/hysteria2/config.json', type: "hysteria2" },
+	        	{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/config.json', type: "hysteria2" },
+         		{ url: 'https://www.gitlabip.xyz/Alvin9999/pac2/master/hysteria2/13/config.json', type: "hysteria2" },
+	         	{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/2/config.json', type: "hysteria2" },
+		        { url: 'https://www.githubip.xyz/Alvin9999/pac2/master/hysteria2/2/config.json', type: "hysteria2" },
+	         	{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/2/config.json', type: "hysteria2" },
+                ];
 
 		let siteshy = [
-			{ url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/config.json", type: "hysteria" },
-			{ url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/1/config.json", type: "hysteria" },
-			{ url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/2/config.json", type: "hysteria" },
-			{ url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/13/config.json", type: "hysteria" },
-			{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria/config.json", type: "hysteria" },
-			{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria/2/config.json", type: "hysteria" },
-		];
+	        	{ url: "https://www.gitlabip.xyz/Alvin9999/pac2/master/hysteria/1/config.json", type: "hysteria" },
+	        	{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria/config.json", type: "hysteria" },
+		        { url: "https://www.githubip.xyz/Alvin9999/pac2/master/hysteria/config.json", type: "hysteria" },
+	        	{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria/config.json", type: "hysteria" },
+	        	{ url: "https://www.gitlabip.xyz/Alvin9999/pac2/master/hysteria/13/config.json", type: "hysteria" },
+	        	{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria/2/config.json", type: "hysteria" },
+	        	{ url: "https://www.githubip.xyz/Alvin9999/pac2/master/hysteria/2/config.json", type: "hysteria" },
+         		{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria/2/config.json", type: "hysteria" },
+                ];
 
 		let sitessb = [
-			{ url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/singbox/config.json", type: "hysteria" },
-			{ url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/singbox/1/config.json", type: "hysteria" },
-			{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/singbox/config.json",type: "hysteria"},
-		];
+	         	{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/singbox/config.json", type: "singbox" },
+	         	{ url: "https://www.githubip.xyz/Alvin9999/pac2/master/singbox/config.json", type: "singbox" },
+		        { url: "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/singbox/config.json", type: "singbox" },
+	        	{ url: "https://www.gitlabip.xyz/Alvin9999/pac2/master/singbox/1/config.json", type: "singbox" },
+                ];
 
 		// 使用 Promise.all() 并发请求所有站点
 		const [hysteria2Responses, hysteriaResponses, singboxResponses] = await Promise.all([
